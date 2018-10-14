@@ -70,6 +70,12 @@
     <Compile Include="FormMuonSach.Designer.cs">
       <DependentUpon>FormMuonSach.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormQLmuontra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormQLmuontra.Designer.cs">
+      <DependentUpon>FormQLmuontra.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormTraSach.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +96,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMuonSach.resx">
       <DependentUpon>FormMuonSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormQLmuontra.resx">
+      <DependentUpon>FormQLmuontra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTraSach.resx">
       <DependentUpon>FormTraSach.cs</DependentUpon>
@@ -128,6 +137,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\394751.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Erro55.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timff_11.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

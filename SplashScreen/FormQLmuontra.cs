@@ -10,24 +10,19 @@ using System.Windows.Forms;
 
 namespace SplashScreen
 {
-    public partial class FormMuonSach : Form
+    public partial class FormQLmuontra : Form
     {
-        public FormMuonSach()
+        public FormQLmuontra()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void btBack_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void FormMuonSach_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tabPage1_Click(object sender, EventArgs e)
+        private void btXoa_Click(object sender, EventArgs e)
         {
 
         }
