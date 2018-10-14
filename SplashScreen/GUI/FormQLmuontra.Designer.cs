@@ -32,8 +32,6 @@
             this.tabQuanLy = new System.Windows.Forms.TabControl();
             this.tabMuon = new System.Windows.Forms.TabPage();
             this.btBack = new System.Windows.Forms.Button();
-            this.btXoa = new System.Windows.Forms.Button();
-            this.btnXuat = new System.Windows.Forms.Button();
             this.dtgMuonSach = new System.Windows.Forms.DataGridView();
             this.gbPhieuMuon = new System.Windows.Forms.GroupBox();
             this.dtNgayTra = new System.Windows.Forms.DateTimePicker();
@@ -50,12 +48,14 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tabTra = new System.Windows.Forms.TabPage();
             this.label7 = new System.Windows.Forms.Label();
-            this.btTimPM = new System.Windows.Forms.Button();
             this.btTraSach = new System.Windows.Forms.Button();
             this.btBackTra = new System.Windows.Forms.Button();
             this.dtgTraSach = new System.Windows.Forms.DataGridView();
             this.txtMaPM = new System.Windows.Forms.TextBox();
             this.lbMaPhieuMuon = new System.Windows.Forms.Label();
+            this.btXoa = new System.Windows.Forms.Button();
+            this.btnXuat = new System.Windows.Forms.Button();
+            this.btTimPM = new System.Windows.Forms.Button();
             this.tabQuanLy.SuspendLayout();
             this.tabMuon.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgMuonSach)).BeginInit();
@@ -69,10 +69,10 @@
             this.tabQuanLy.Controls.Add(this.tabMuon);
             this.tabQuanLy.Controls.Add(this.tabTra);
             this.tabQuanLy.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabQuanLy.Location = new System.Drawing.Point(12, 12);
+            this.tabQuanLy.Location = new System.Drawing.Point(0, 2);
             this.tabQuanLy.Name = "tabQuanLy";
             this.tabQuanLy.SelectedIndex = 0;
-            this.tabQuanLy.Size = new System.Drawing.Size(970, 530);
+            this.tabQuanLy.Size = new System.Drawing.Size(953, 547);
             this.tabQuanLy.TabIndex = 0;
             // 
             // tabMuon
@@ -89,7 +89,7 @@
             this.tabMuon.Location = new System.Drawing.Point(4, 29);
             this.tabMuon.Name = "tabMuon";
             this.tabMuon.Padding = new System.Windows.Forms.Padding(3);
-            this.tabMuon.Size = new System.Drawing.Size(962, 497);
+            this.tabMuon.Size = new System.Drawing.Size(1007, 514);
             this.tabMuon.TabIndex = 0;
             this.tabMuon.Text = "MƯỢN SÁCH";
             // 
@@ -106,39 +106,6 @@
             this.btBack.UseVisualStyleBackColor = false;
             this.btBack.Click += new System.EventHandler(this.btBack_Click);
             // 
-            // btXoa
-            // 
-            this.btXoa.BackColor = System.Drawing.Color.LightCoral;
-            this.btXoa.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btXoa.Image = ((System.Drawing.Image)(resources.GetObject("btXoa.Image")));
-            this.btXoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btXoa.Location = new System.Drawing.Point(290, 433);
-            this.btXoa.Margin = new System.Windows.Forms.Padding(4);
-            this.btXoa.Name = "btXoa";
-            this.btXoa.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btXoa.Size = new System.Drawing.Size(103, 54);
-            this.btXoa.TabIndex = 22;
-            this.btXoa.Text = "XOÁ";
-            this.btXoa.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btXoa.UseVisualStyleBackColor = false;
-            this.btXoa.Click += new System.EventHandler(this.btXoa_Click);
-            // 
-            // btnXuat
-            // 
-            this.btnXuat.BackColor = System.Drawing.Color.SkyBlue;
-            this.btnXuat.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnXuat.Image = ((System.Drawing.Image)(resources.GetObject("btnXuat.Image")));
-            this.btnXuat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnXuat.Location = new System.Drawing.Point(84, 436);
-            this.btnXuat.Margin = new System.Windows.Forms.Padding(4);
-            this.btnXuat.Name = "btnXuat";
-            this.btnXuat.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnXuat.Size = new System.Drawing.Size(102, 51);
-            this.btnXuat.TabIndex = 21;
-            this.btnXuat.Text = "XUẤT";
-            this.btnXuat.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnXuat.UseVisualStyleBackColor = false;
-            // 
             // dtgMuonSach
             // 
             this.dtgMuonSach.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -146,7 +113,7 @@
             this.dtgMuonSach.Location = new System.Drawing.Point(464, 109);
             this.dtgMuonSach.Margin = new System.Windows.Forms.Padding(4);
             this.dtgMuonSach.Name = "dtgMuonSach";
-            this.dtgMuonSach.Size = new System.Drawing.Size(476, 384);
+            this.dtgMuonSach.Size = new System.Drawing.Size(476, 385);
             this.dtgMuonSach.TabIndex = 20;
             // 
             // gbPhieuMuon
@@ -162,7 +129,8 @@
             this.gbPhieuMuon.Controls.Add(this.label3);
             this.gbPhieuMuon.Controls.Add(this.label8);
             this.gbPhieuMuon.Controls.Add(this.label2);
-            this.gbPhieuMuon.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbPhieuMuon.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbPhieuMuon.ForeColor = System.Drawing.Color.Teal;
             this.gbPhieuMuon.Location = new System.Drawing.Point(20, 109);
             this.gbPhieuMuon.Margin = new System.Windows.Forms.Padding(4);
             this.gbPhieuMuon.Name = "gbPhieuMuon";
@@ -317,16 +285,16 @@
             // 
             this.tabTra.BackColor = System.Drawing.Color.LightSteelBlue;
             this.tabTra.Controls.Add(this.label7);
-            this.tabTra.Controls.Add(this.btTimPM);
             this.tabTra.Controls.Add(this.btTraSach);
             this.tabTra.Controls.Add(this.btBackTra);
             this.tabTra.Controls.Add(this.dtgTraSach);
             this.tabTra.Controls.Add(this.txtMaPM);
             this.tabTra.Controls.Add(this.lbMaPhieuMuon);
+            this.tabTra.Controls.Add(this.btTimPM);
             this.tabTra.Location = new System.Drawing.Point(4, 29);
             this.tabTra.Name = "tabTra";
             this.tabTra.Padding = new System.Windows.Forms.Padding(3);
-            this.tabTra.Size = new System.Drawing.Size(962, 497);
+            this.tabTra.Size = new System.Drawing.Size(945, 514);
             this.tabTra.TabIndex = 1;
             this.tabTra.Text = "TRẢ SÁCH";
             // 
@@ -341,22 +309,6 @@
             this.label7.Size = new System.Drawing.Size(337, 70);
             this.label7.TabIndex = 25;
             this.label7.Text = "TRẢ SÁCH";
-            // 
-            // btTimPM
-            // 
-            this.btTimPM.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btTimPM.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btTimPM.ForeColor = System.Drawing.Color.Teal;
-            this.btTimPM.Image = ((System.Drawing.Image)(resources.GetObject("btTimPM.Image")));
-            this.btTimPM.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btTimPM.Location = new System.Drawing.Point(642, 101);
-            this.btTimPM.Name = "btTimPM";
-            this.btTimPM.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.btTimPM.Size = new System.Drawing.Size(130, 56);
-            this.btTimPM.TabIndex = 24;
-            this.btTimPM.Text = "Tìm kiếm";
-            this.btTimPM.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btTimPM.UseVisualStyleBackColor = false;
             // 
             // btTraSach
             // 
@@ -411,11 +363,60 @@
             this.lbMaPhieuMuon.TabIndex = 1;
             this.lbMaPhieuMuon.Text = "Mã phiếu mượn:";
             // 
+            // btXoa
+            // 
+            this.btXoa.BackColor = System.Drawing.Color.LightCoral;
+            this.btXoa.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btXoa.Image = ((System.Drawing.Image)(resources.GetObject("btXoa.Image")));
+            this.btXoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btXoa.Location = new System.Drawing.Point(266, 440);
+            this.btXoa.Margin = new System.Windows.Forms.Padding(4);
+            this.btXoa.Name = "btXoa";
+            this.btXoa.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btXoa.Size = new System.Drawing.Size(109, 54);
+            this.btXoa.TabIndex = 22;
+            this.btXoa.Text = "XOÁ";
+            this.btXoa.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btXoa.UseVisualStyleBackColor = false;
+            this.btXoa.Click += new System.EventHandler(this.btXoa_Click);
+            // 
+            // btnXuat
+            // 
+            this.btnXuat.BackColor = System.Drawing.Color.SkyBlue;
+            this.btnXuat.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnXuat.Image = global::SplashScreen.Properties.Resources.if_common_logout_signout_exit_glyph_763291__1_;
+            this.btnXuat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnXuat.Location = new System.Drawing.Point(78, 443);
+            this.btnXuat.Margin = new System.Windows.Forms.Padding(4);
+            this.btnXuat.Name = "btnXuat";
+            this.btnXuat.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.btnXuat.Size = new System.Drawing.Size(120, 51);
+            this.btnXuat.TabIndex = 21;
+            this.btnXuat.Text = "XUẤT";
+            this.btnXuat.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnXuat.UseVisualStyleBackColor = false;
+            // 
+            // btTimPM
+            // 
+            this.btTimPM.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btTimPM.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btTimPM.ForeColor = System.Drawing.Color.Teal;
+            this.btTimPM.Image = ((System.Drawing.Image)(resources.GetObject("btTimPM.Image")));
+            this.btTimPM.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btTimPM.Location = new System.Drawing.Point(642, 101);
+            this.btTimPM.Name = "btTimPM";
+            this.btTimPM.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.btTimPM.Size = new System.Drawing.Size(130, 56);
+            this.btTimPM.TabIndex = 24;
+            this.btTimPM.Text = "Tìm kiếm";
+            this.btTimPM.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btTimPM.UseVisualStyleBackColor = false;
+            // 
             // FormQLmuontra
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1017, 554);
+            this.ClientSize = new System.Drawing.Size(956, 554);
             this.Controls.Add(this.tabQuanLy);
             this.IsMdiContainer = true;
             this.Name = "FormQLmuontra";

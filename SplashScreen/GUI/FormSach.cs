@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SplashScreen
+namespace SplashScreen.GUI
 {
-    public partial class FormTraSach : Form
+    public partial class FormSach : Form
     {
-        public FormTraSach()
+        public FormSach()
         {
             InitializeComponent();
+        }
+
+        private void splitter1_SplitterMoved(object sender, SplitterEventArgs e)
+        {
+
         }
     }
 }

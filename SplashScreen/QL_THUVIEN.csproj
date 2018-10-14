@@ -64,23 +64,17 @@
     <Compile Include="FormFlashScreen.Designer.cs">
       <DependentUpon>FormFlashScreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormMuonSach.cs">
+    <Compile Include="GUI\FormQLmuontra.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormMuonSach.Designer.cs">
-      <DependentUpon>FormMuonSach.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormQLmuontra.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormQLmuontra.Designer.cs">
+    <Compile Include="GUI\FormQLmuontra.Designer.cs">
       <DependentUpon>FormQLmuontra.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormTraSach.cs">
+    <Compile Include="GUI\FormSach.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormTraSach.Designer.cs">
-      <DependentUpon>FormTraSach.cs</DependentUpon>
+    <Compile Include="GUI\FormSach.Designer.cs">
+      <DependentUpon>FormSach.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -94,14 +88,11 @@
     <EmbeddedResource Include="FormFlashScreen.resx">
       <DependentUpon>FormFlashScreen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormMuonSach.resx">
-      <DependentUpon>FormMuonSach.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormQLmuontra.resx">
+    <EmbeddedResource Include="GUI\FormQLmuontra.resx">
       <DependentUpon>FormQLmuontra.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormTraSach.resx">
-      <DependentUpon>FormTraSach.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\FormSach.resx">
+      <DependentUpon>FormSach.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -146,6 +137,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\timff_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Build\" />
+    <Folder Include="Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_common-logout-signout-exit-glyph_763291 %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

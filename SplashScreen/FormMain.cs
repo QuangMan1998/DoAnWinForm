@@ -53,5 +53,20 @@ namespace SplashScreen
         {
 
         }
+
+        private void hệThốngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void độcGiảToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void hToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
