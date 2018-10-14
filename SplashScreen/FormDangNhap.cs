@@ -16,5 +16,10 @@ namespace SplashScreen
         {
             InitializeComponent();
         }
+
+        private void FormDangNhap_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

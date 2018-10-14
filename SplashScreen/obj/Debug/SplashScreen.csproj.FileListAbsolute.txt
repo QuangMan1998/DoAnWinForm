@@ -13,3 +13,6 @@ D:\Visual Studio 2015\SplashScreen\SplashScreen\obj\Debug\SplashScreen.FormTraSa
 C:\Users\Administrator\Desktop\doanwinform\winform\QLThuVien\SplashScreen\bin\Debug\SplashScreen.exe.config
 C:\Users\Administrator\Desktop\doanwinform\winform\QLThuVien\SplashScreen\obj\Debug\SplashScreen.exe
 C:\Users\Administrator\Desktop\doanwinform\winform\QLThuVien\SplashScreen\obj\Debug\SplashScreen.pdb
+D:\Study\DoAnWinForm\SplashScreen\bin\Debug\SplashScreen.exe.config
+D:\Study\DoAnWinForm\SplashScreen\obj\Debug\SplashScreen.exe
+D:\Study\DoAnWinForm\SplashScreen\obj\Debug\SplashScreen.pdb
