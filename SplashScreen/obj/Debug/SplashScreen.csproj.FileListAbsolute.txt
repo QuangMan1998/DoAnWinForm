@@ -1,0 +1,15 @@
+D:\Visual Studio 2015\SplashScreen\SplashScreen\bin\Debug\SplashScreen.exe.config
+D:\Visual Studio 2015\SplashScreen\SplashScreen\obj\Debug\SplashScreen.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2015\SplashScreen\SplashScreen\obj\Debug\SplashScreen.FormFlashScreen.resources
+D:\Visual Studio 2015\SplashScreen\SplashScreen\obj\Debug\SplashScreen.FormMain.resources
+D:\Visual Studio 2015\SplashScreen\SplashScreen\obj\Debug\SplashScreen.Properties.Resources.resources
+D:\Visual Studio 2015\SplashScreen\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.Cache
+D:\Visual Studio 2015\SplashScreen\SplashScreen\bin\Debug\SplashScreen.exe
+D:\Visual Studio 2015\SplashScreen\SplashScreen\bin\Debug\SplashScreen.pdb
+D:\Visual Studio 2015\SplashScreen\SplashScreen\obj\Debug\SplashScreen.exe
+D:\Visual Studio 2015\SplashScreen\SplashScreen\obj\Debug\SplashScreen.pdb
+D:\Visual Studio 2015\SplashScreen\SplashScreen\obj\Debug\SplashScreen.FormMuonSach.resources
+D:\Visual Studio 2015\SplashScreen\SplashScreen\obj\Debug\SplashScreen.FormTraSach.resources
+C:\Users\Administrator\Desktop\doanwinform\winform\QLThuVien\SplashScreen\bin\Debug\SplashScreen.exe.config
+C:\Users\Administrator\Desktop\doanwinform\winform\QLThuVien\SplashScreen\obj\Debug\SplashScreen.exe
+C:\Users\Administrator\Desktop\doanwinform\winform\QLThuVien\SplashScreen\obj\Debug\SplashScreen.pdb
